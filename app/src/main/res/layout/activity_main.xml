@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/view_padding"
+    android:paddingEnd="@dimen/view_padding"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/main_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/input_hint"
+        android:inputType="textMultiLine"
+        tools:ignore="Autofill" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Spinner
+            android:id="@+id/main_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClapifyClick"
+            android:text="@string/clapify" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/main_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/result_margin"
+        android:layout_marginBottom="@dimen/result_margin"
+        android:text="@string/placeholder_text"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    <Button
+        android:id="@+id/main_copy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCopyClick"
+        android:text="@string/copy" />
+</LinearLayout>

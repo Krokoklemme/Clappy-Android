@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Clappy</string>
+    <string name="input_hint">Enter Text</string>
+    <string name="clapify">Clapify</string>
+    <string name="placeholder_text">Here👏Be👏Text</string>
+    <string name="copy">Copy!</string>
+</resources>
