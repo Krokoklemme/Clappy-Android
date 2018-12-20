@@ -13,3 +13,6 @@ and it's still super simple to use!
 ![seriously, wtf is going on here](https://i.imgur.com/xLKhUAi.png "Copy")
 
 4.) Use anywhere you want!
+
+It's also not available on Google Play, because I'm poor as hell and can't afford the developer fee  
+so here's an alternative [download link](https://www.mediafire.com/file/67d70bkdq7i0fe2/Clappy.apk/file) instead.
